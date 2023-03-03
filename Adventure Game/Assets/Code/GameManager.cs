@@ -8,8 +8,8 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     private int itemCounter = 0;
-    int totalItems = 10;
-    private int level = 1;
+    public int totalItems = 1;
+    public int level;
     public TextMeshProUGUI itemCounterUI;
     public TextMeshProUGUI levelUI;
     public Image livesUI;
@@ -63,15 +63,22 @@ public class GameManager : MonoBehaviour
 #endif
     }
     
-    void nextLevel(){
-        if (level == 0){
-            SceneManager.LoadScene("Level 1");
-        }
-        else if (level == 1) {
+    public void nextLevel(){
+        if (level == 1){
             SceneManager.LoadScene("Level 2");
+        }
+        else if (level == 2) {
+            SceneManager.LoadScene("Level 3");
+        }
+        else if (level == 3) {
+            SceneManager.LoadScene("Level 4");
+        }
+        else if (level == 4) {
+            SceneManager.LoadScene("Level 5");
         }
         else {
             SceneManager.LoadScene("Over");
         }
+        Destroy(gameObject);
     }
 }

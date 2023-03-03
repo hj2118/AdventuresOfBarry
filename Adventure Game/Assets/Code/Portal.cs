@@ -23,7 +23,7 @@ public class Portal : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if (other.CompareTag("Player")){
             if (PublicVars.hasAllFlowers){
-                SceneManager.LoadScene("Level 4");
+                SceneManager.LoadScene("Level 5");
             }
         }
     }
