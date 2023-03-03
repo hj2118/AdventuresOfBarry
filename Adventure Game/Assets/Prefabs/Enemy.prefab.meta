@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Enemy.prefab.meta
 guid: ded1bcd4a7b5e5c40b170b5dd275ae58
 PrefabImporter:
+========
+guid: 311d665729bd5b343b6b1b19f90e78c2
+DefaultImporter:
+>>>>>>>> b1b30adc0287ceb71005878f619cddb3170ce971:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/LowPolyDungeonsLite_2020.3.0_URP_v1.1.unitypackage.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Adventure Game/Assets/Scenes/level_2.unity.meta
 guid: 5ed010456aceee743bd4de1db3a23847
+========
+guid: 2d53aa98b44ae3a4c9df429fa9810758
+>>>>>>>> b1b30adc0287ceb71005878f619cddb3170ce971:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/LowPolyDungeonsLite_2020.3.0_HDRP_v1.1.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

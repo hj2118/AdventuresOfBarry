@@ -5,20 +5,16 @@ using UnityEngine.AI;
 
 public class enemy : MonoBehaviour
 {
-    NavMeshAgent _navMeshAgent;
-
     GameObject player;
-
-    void Start()
-    {
-        _navMeshAgent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player");    
+    GameManager _gameManager;
+    void Start(){
+        _gameManager = FindObjectOfType<GameManager>();
     }
-
-    IEnumerator ChasePlayer() {
-        while (true) {
-            yield return new WaitForSeconds(.1f);
-            _navMeshAgent.destination = player.transform.position;
+    // Start is called before the first frame update
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Player")){
+            _gameManager.DecrementLives();
         }
     }
+    // Update is called once per frame
 }
