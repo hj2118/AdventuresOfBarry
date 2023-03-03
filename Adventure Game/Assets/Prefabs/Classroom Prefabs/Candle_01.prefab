@@ -99,9 +99,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.09926086, y: 0.1665229, z: 0.1146166}
   m_Center: {x: 0, y: 0.08326144, z: 0.000000018626451}
-<<<<<<< HEAD
---- !u!54 &7831779280714237908
-=======
 --- !u!114 &1525469742516148389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +112,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &-6128450808059651208
->>>>>>> heejin
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
