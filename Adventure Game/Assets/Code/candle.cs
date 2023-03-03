@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class candle : MonoBehaviour
+public class enemy : MonoBehaviour
 {
     GameObject player;
     GameManager _gameManager;
