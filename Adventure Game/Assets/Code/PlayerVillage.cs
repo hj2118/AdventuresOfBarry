@@ -7,6 +7,7 @@ public class PlayerVillage : MonoBehaviour
 {
     NavMeshAgent _navMeshAgent;
     Camera mainCam;
+    private int flowers = 0;
 
     void Start()
     {
@@ -40,6 +41,13 @@ public class PlayerVillage : MonoBehaviour
         if(other.CompareTag("Wood")){
             Destroy(other.gameObject);
             PublicVars.hasWood = true;
+        }
+        if(other.CompareTag("Flower")){
+            Destroy(other.gameObject);
+            flowers += 1;
+            if(flowers == 9){
+                PublicVars.hasAllFlowers = true;
+            }
         }
     }
 }
