@@ -1,10 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
---- !u!1 &5323096830535242111
-========
---- !u!1 &4362559297216087087
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+--- !u!1 &6387669720919838387
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,85 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
-  - component: {fileID: 5323096831316374179}
-  - component: {fileID: 5323096830535242083}
-  - component: {fileID: 5323096830535242108}
-  - component: {fileID: 5323096830535242109}
-  - component: {fileID: 5323096830535242110}
+  - component: {fileID: 6387669720919838386}
+  - component: {fileID: 6387669720919838399}
+  - component: {fileID: 6387669720919838384}
+  - component: {fileID: 6387669720919838385}
+  - component: {fileID: 1603553592450220427}
   m_Layer: 0
   m_Name: maze_wall
-========
-  - component: {fileID: 6404383464706215495}
-  - component: {fileID: 2321198602349797377}
-  - component: {fileID: 9045553259780651523}
-  - component: {fileID: 4203646505527940122}
-  - component: {fileID: 3238020970926718806}
-  - component: {fileID: 6617248649247719730}
-  m_Layer: 0
-  m_Name: Door
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
---- !u!4 &5323096831316374179
-========
---- !u!4 &6404383464706215495
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+--- !u!4 &6387669720919838386
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
-  m_GameObject: {fileID: 5323096830535242111}
+  m_GameObject: {fileID: 6387669720919838387}
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -30, y: 1.58, z: -33.480408}
-  m_LocalScale: {x: 1.5414138, y: 3.3041005, z: 19.77768}
-========
-  m_GameObject: {fileID: 4362559297216087087}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 22, y: 2, z: 4}
-  m_LocalScale: {x: 3, y: 4, z: 0.5}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+  m_LocalPosition: {x: -30.75, y: 1.58, z: -39.1}
+  m_LocalScale: {x: 1.5414138, y: 3.3041005, z: 21.355879}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5323096830535242083
-========
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!33 &2321198602349797377
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+--- !u!33 &6387669720919838399
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
-  m_GameObject: {fileID: 5323096830535242111}
+  m_GameObject: {fileID: 6387669720919838387}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5323096830535242108
-========
-  m_GameObject: {fileID: 4362559297216087087}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &9045553259780651523
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+--- !u!23 &6387669720919838384
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
-  m_GameObject: {fileID: 5323096830535242111}
-========
-  m_GameObject: {fileID: 4362559297216087087}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+  m_GameObject: {fileID: 6387669720919838387}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -104,11 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
   - {fileID: 2100000, guid: da1113fceedd0ed4c91939bc317f9853, type: 2}
-========
-  - {fileID: 2100000, guid: 6f3578f57712e854b922aa47c80d3e44, type: 2}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -130,42 +85,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
---- !u!65 &5323096830535242109
-========
---- !u!65 &4203646505527940122
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+--- !u!65 &6387669720919838385
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
-  m_GameObject: {fileID: 5323096830535242111}
-========
-  m_GameObject: {fileID: 4362559297216087087}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+  m_GameObject: {fileID: 6387669720919838387}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
---- !u!54 &5323096830535242110
-========
---- !u!54 &3238020970926718806
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+--- !u!54 &1603553592450220427
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/maze_wall.prefab
-  m_GameObject: {fileID: 5323096830535242111}
-========
-  m_GameObject: {fileID: 4362559297216087087}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
+  m_GameObject: {fileID: 6387669720919838387}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -175,15 +114,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6617248649247719730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4362559297216087087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 956b32006aac0074883714af00bacb3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
