@@ -4,9 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
+    GameManager _gameManager;
+    void Start(){
+        _gameManager = FindObjectOfType<GameManager>();
+    }
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")){
-            SceneManager.LoadScene("lvl tbd");
+            _gameManager.nextLevel();
         }
     }
 }
