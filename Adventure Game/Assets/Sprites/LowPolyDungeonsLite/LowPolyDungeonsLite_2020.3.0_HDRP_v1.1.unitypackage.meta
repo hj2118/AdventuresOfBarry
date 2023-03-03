@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/LowPolyDungeonsLite_2020.3.0_HDRP_v1.1.unitypackage.meta
 guid: 2d53aa98b44ae3a4c9df429fa9810758
+========
+guid: 311d665729bd5b343b6b1b19f90e78c2
+>>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/LowPolyDungeonsLite_2020.3.0_URP_v1.1.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
