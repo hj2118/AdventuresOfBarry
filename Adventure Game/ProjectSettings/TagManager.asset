@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Leaf
+  - Helmet
+  - Crown
+  - Wood
+  - Flower
+  - Door
   layers:
   - Default
   - TransparentFX
