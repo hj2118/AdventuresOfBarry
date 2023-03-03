@@ -2303,7 +2303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b098d08ee78c0b488c19b26acff5c4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: lvl
+  levelToLoad: Game Over
   newSprite: {fileID: 1859319168}
   oldSprite: {fileID: 1462108740}
 --- !u!4 &1480872052 stripped
