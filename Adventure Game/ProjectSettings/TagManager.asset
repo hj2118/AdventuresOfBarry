@@ -11,6 +11,7 @@ TagManager:
   - Flower
   - Door
   - Book
+  - item
   layers:
   - Default
   - TransparentFX
