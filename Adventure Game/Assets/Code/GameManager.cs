@@ -73,11 +73,11 @@ public class GameManager : MonoBehaviour
         else if (level == 3) {
             SceneManager.LoadScene("Level 4");
         }
-        // else if (level == 4) {
-        //     SceneManager.LoadScene("Level 5");
-        // }
+        else if (level == 4) {
+            SceneManager.LoadScene("Level 5");
+        }
         else {
-            SceneManager.LoadScene("Over");
+            SceneManager.LoadScene("Game Over");
         }
         Destroy(gameObject);
     }
