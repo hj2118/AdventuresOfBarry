@@ -1,10 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
---- !u!1 &4362559297216087087
-========
---- !u!1 &7779381877309823848
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+--- !u!1 &3181768916332128647
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,84 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
-  - component: {fileID: 6404383464706215495}
-  - component: {fileID: 2321198602349797377}
-  - component: {fileID: 9045553259780651523}
-  - component: {fileID: 4203646505527940122}
-  - component: {fileID: 3238020970926718806}
-  - component: {fileID: 6617248649247719730}
+  - component: {fileID: 4586466244714288161}
+  - component: {fileID: 5330166979783921929}
+  - component: {fileID: 2564388606817891158}
+  - component: {fileID: -8712223603949033909}
+  - component: {fileID: 3831858127568903196}
+  - component: {fileID: 435574760458858408}
   m_Layer: 0
   m_Name: Door
-========
-  - component: {fileID: 9051238300485817969}
-  - component: {fileID: 1818221086739723429}
-  - component: {fileID: 8112832757842210709}
-  - component: {fileID: 1755183774755843626}
-  m_Layer: 0
-  m_Name: Wall_27
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
---- !u!4 &6404383464706215495
-========
---- !u!4 &9051238300485817969
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+--- !u!4 &4586466244714288161
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
-  m_GameObject: {fileID: 4362559297216087087}
+  m_GameObject: {fileID: 3181768916332128647}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 22, y: 2, z: 4}
-  m_LocalScale: {x: 3, y: 4, z: 0.5}
-========
-  m_GameObject: {fileID: 7779381877309823848}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+  m_LocalPosition: {x: 22, y: 1.5, z: 0}
+  m_LocalScale: {x: 2, y: 3, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!33 &2321198602349797377
-========
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1818221086739723429
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+--- !u!33 &5330166979783921929
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
-  m_GameObject: {fileID: 4362559297216087087}
+  m_GameObject: {fileID: 3181768916332128647}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &9045553259780651523
-========
-  m_GameObject: {fileID: 7779381877309823848}
-  m_Mesh: {fileID: 4300000, guid: 657987f19f0767d4f81541198f8e3eff, type: 3}
---- !u!23 &8112832757842210709
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+--- !u!23 &2564388606817891158
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
-  m_GameObject: {fileID: 4362559297216087087}
-========
-  m_GameObject: {fileID: 7779381877309823848}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+  m_GameObject: {fileID: 3181768916332128647}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -103,11 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
-  - {fileID: 2100000, guid: 6f3578f57712e854b922aa47c80d3e44, type: 2}
-========
-  - {fileID: 2100000, guid: 4706105f00386894ca453626d3debcd7, type: 2}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -119,7 +76,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
+  m_StitchLightmapSeams: 1
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -129,36 +86,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
---- !u!65 &4203646505527940122
+--- !u!65 &-8712223603949033909
 BoxCollider:
-========
---- !u!64 &1755183774755843626
-MeshCollider:
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
-  m_GameObject: {fileID: 4362559297216087087}
-========
-  m_GameObject: {fileID: 7779381877309823848}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+  m_GameObject: {fileID: 3181768916332128647}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-<<<<<<<< HEAD:Adventure Game/Assets/Prefabs/Classroom Prefabs/Door.prefab
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3238020970926718806
+--- !u!54 &3831858127568903196
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4362559297216087087}
+  m_GameObject: {fileID: 3181768916332128647}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -168,21 +115,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6617248649247719730
+--- !u!114 &435574760458858408
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4362559297216087087}
+  m_GameObject: {fileID: 3181768916332128647}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 956b32006aac0074883714af00bacb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-========
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 657987f19f0767d4f81541198f8e3eff, type: 3}
->>>>>>>> dc4e447963ea60cad244e5bfb0def65ac2335ed8:Adventure Game/Assets/Sprites/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
