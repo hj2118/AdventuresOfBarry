@@ -12,6 +12,7 @@ TagManager:
   - Door
   - Book
   - item
+  - Trap
   layers:
   - Default
   - TransparentFX
