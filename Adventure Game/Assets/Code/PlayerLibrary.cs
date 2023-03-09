@@ -35,7 +35,7 @@ public class PlayerLibrary : MonoBehaviour
             _gameManager.IncrementItemCounter();
         }
 
-        if (other.CompareTag("Trap")){
+        if (other.CompareTag("Trap") || other.CompareTag("Enemy")){
             _gameManager.DecrementLives();
             transform.position = respawn;
             _navMeshAgent.destination = respawn;

@@ -13,6 +13,7 @@ TagManager:
   - Book
   - item
   - Trap
+  - Enemy
   layers:
   - Default
   - TransparentFX
