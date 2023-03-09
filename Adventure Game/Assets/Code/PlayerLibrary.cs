@@ -8,12 +8,14 @@ public class PlayerLibrary : MonoBehaviour
     NavMeshAgent _navMeshAgent;
     Camera mainCam;
     GameManager _gameManager;
+    private Vector3 respawn;
 
     void Start()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
         mainCam = Camera.main;
         _gameManager = FindObjectOfType<GameManager>();
+        respawn = transform.position;
     }
 
     void Update()
@@ -21,7 +23,7 @@ public class PlayerLibrary : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
-            if (Physics.Raycast(mainCam.ScreenPointToRay(Input.mousePosition),out hit, 200)){
+            if (Physics.Raycast(mainCam.ScreenPointToRay(Input.mousePosition), out hit, 200)){
                 _navMeshAgent.destination = hit.point;
             }
         }
@@ -34,8 +36,9 @@ public class PlayerLibrary : MonoBehaviour
         }
 
         if (other.CompareTag("Trap")){
-            print("HIT");
             _gameManager.DecrementLives();
+            transform.position = respawn;
+            _navMeshAgent.destination = respawn;
         }
     }
 }
