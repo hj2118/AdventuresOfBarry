@@ -23,7 +23,11 @@ public class Portal : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if (other.CompareTag("Player")){
             if (PublicVars.hasAllFlowers){
+<<<<<<< HEAD
                 SceneManager.LoadScene("Level 5");
+=======
+                SceneManager.LoadScene("Game Over");
+>>>>>>> parent of fe6c4a8 (check)
             }
         }
     }
