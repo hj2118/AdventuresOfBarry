@@ -12,6 +12,8 @@ TagManager:
   - Door
   - Book
   - item
+  - Trap
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,7 @@ public class SlimeWood : MonoBehaviour
             if(PublicVars.hasWood){
                 Instantiate(leafPrefab, vec, Quaternion.identity);
             }
+            PublicVars.hasWood = false;
         }
     }
 }
