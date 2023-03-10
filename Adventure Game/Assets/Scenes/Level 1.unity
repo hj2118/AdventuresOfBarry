@@ -1818,6 +1818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bbe24c342fcaba4cbc15daf535ddeb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  source: {fileID: 0}
 --- !u!1 &1206503793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8656523411910824754, guid: ebfe282d3f4f1bb418147d0694096aa9, type: 3}
