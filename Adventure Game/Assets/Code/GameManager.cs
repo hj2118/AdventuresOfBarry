@@ -53,15 +53,6 @@ public class GameManager : MonoBehaviour
         return totalItems == itemCounter; 
     }
     // Update is called once per frame
-    void Update()
-    {
-#if !UNITY_WEBGL
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
-#endif
-    }
     
     public void nextLevel(){
         if (itemCounter == totalItems){
