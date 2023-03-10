@@ -45,7 +45,7 @@ public class PlayerVillage : MonoBehaviour
         if(other.CompareTag("Flower")){
             Destroy(other.gameObject);
             flowers += 1;
-            if(flowers == 9){
+            if(flowers == 7){
                 PublicVars.hasAllFlowers = true;
             }
         }

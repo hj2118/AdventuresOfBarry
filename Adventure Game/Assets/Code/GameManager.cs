@@ -53,31 +53,24 @@ public class GameManager : MonoBehaviour
         return totalItems == itemCounter; 
     }
     // Update is called once per frame
-    void Update()
-    {
-#if !UNITY_WEBGL
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
-#endif
-    }
     
     public void nextLevel(){
-        if (level == 1){
-            SceneManager.LoadScene("Level 2");
-        }
-        else if (level == 2) {
-            SceneManager.LoadScene("Level 3");
-        }
-        else if (level == 3) {
-            SceneManager.LoadScene("Level 4");
-        }
-        else if (level == 4) {
-            SceneManager.LoadScene("Level 5");
-        }
-        else {
-            SceneManager.LoadScene("Game Over");
+        if (itemCounter == totalItems){
+            if (level == 1){
+                SceneManager.LoadScene("Level 2");
+            }
+            else if (level == 2) {
+                SceneManager.LoadScene("Level 3");
+            }
+            else if (level == 3) {
+                SceneManager.LoadScene("Level 4");
+            }
+            else if (level == 4) {
+                SceneManager.LoadScene("Level 5");
+            }
+            else {
+                SceneManager.LoadScene("Game Over");
+            }
         }
         Destroy(gameObject);
     }
