@@ -10,7 +10,15 @@ public class PortalPurple2 : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         if (other.CompareTag("Player")){
+            Player.GetComponent<UnityEngine.AI.NavMeshAgent>().isStopped = true;
+            Player.GetComponent<UnityEngine.AI.NavMeshAgent>().ResetPath();
             Player.transform.position = newPos;
+            print("hit");
+            Invoke("StartNavMesh", 1f);
         }
+    }
+
+    private void StartNavMesh(){
+        Player.GetComponent<UnityEngine.AI.NavMeshAgent>().isStopped = false;
     }
 }
