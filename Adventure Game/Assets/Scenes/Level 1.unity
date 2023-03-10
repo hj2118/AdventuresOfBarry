@@ -4293,7 +4293,7 @@ PrefabInstance:
       objectReference: {fileID: 573546993}
     - target: {fileID: 120488298700998643, guid: ff4e6719e4c419e44b968c9455402800, type: 3}
       propertyPath: totalItems
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 120488298700998643, guid: ff4e6719e4c419e44b968c9455402800, type: 3}
       propertyPath: itemCounterUI
