@@ -8,10 +8,12 @@ public class PlayerVillage : MonoBehaviour
     NavMeshAgent _navMeshAgent;
     Camera mainCam;
     private int flowers = 0;
+    GameManager _gameManager;
 
     void Start()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
+        _gameManager = FindObjectOfType<GameManager>();
         mainCam = Camera.main;
     }
 
@@ -48,6 +50,10 @@ public class PlayerVillage : MonoBehaviour
             if(flowers == 7){
                 PublicVars.hasAllFlowers = true;
             }
+        }
+        if (other.CompareTag("Enemy")){
+            _gameManager.DecrementLives();
+            Destroy(other.gameObject);
         }
     }
 }
